@@ -1,0 +1,165 @@
+ManifestFileVersion: 0
+CRC: 1040259251
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab654c4918c2c9dff8d28282ba762ec1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_01_TotalProp_Scene_01.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_e_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox22_fla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_leaf_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_a.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox2_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_box_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_woodroad_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox33_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox1_fla_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox2_fla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/stairs/obj_stairs_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox33_fla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox33_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox23_fla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox22_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_c.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/sculpture/obj_sculpture_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_barrier_b_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_streetlight_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_barrier_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_flag_b_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/animal/ani_owl.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/sculpture/obj_sculpture_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_flag_a_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_stonedoor_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox2_fla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/stairs/obj_stairs_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/animal/ani_fox.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_
+  slope_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox2_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox32_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_midrock_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_cellars_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_clampfire_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_mushrooms_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_trigger_a.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_flag_b_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/sculpture/obj_sculpture_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/sculpture/obj_sculpture_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_leaf_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/clouds/obj_clouds_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox1_fla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_a
+  2.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_09.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_midrock_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox1_fla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_10.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_midrock_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_bulletin_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_chest_a.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox22_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/mountain/obj_mountain_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_mushrooms_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_flag_b_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/animal/ani_bird.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox33_fla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/mountain/obj_mountain_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_flagging/pbox22_fla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox22_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_a
+  1.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_foliage_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_bulletin_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_stonedoor_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/clouds/obj_clouds_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_b.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/mountain/obj_mountain_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_building_d.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_leaf_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_stonedoor_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_leaf_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_flag_c_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_streetlight_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_barrier_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_streetlight_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/building/bud_bridge_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox22_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_trigger_b.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/clouds/obj_clouds_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox33_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_
+  slope_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/mountain/obj_mountain_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/sculpture/obj_sculpture_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox33_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/animation/camerma_moving_01.anim

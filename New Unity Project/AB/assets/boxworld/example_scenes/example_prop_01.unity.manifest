@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3543177382
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 05ab383630e6a1c40bed8b13cc1c472f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_Prop_01.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox33_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox22_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_midrock_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_midrock_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_chest_a.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/prop/obj_chest_key_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox_mud_bod_003.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_mid_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox_mud_bod_002.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox_mud_bod_001.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox22_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox2_mud_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox23_
+  slope_mud_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox1_mud_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mud/pbox33_mud_02.prefab

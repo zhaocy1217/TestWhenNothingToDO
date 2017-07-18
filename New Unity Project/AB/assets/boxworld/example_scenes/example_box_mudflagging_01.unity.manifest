@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3553216103
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 54d29f219f2780b67eb3ee05ecb2453c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_BOX_MudFlagging_01.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox2_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox_fla_bod_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox33_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_07.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox2_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox32_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_10.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox22_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/rock/obj_smallrock_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox22_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox32_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox_mudfla_bod_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox23_
+  slope_mudfla_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox1_mudfla_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox33_mudfla_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_mudflagging/pbox_mudfla_bod_03.prefab

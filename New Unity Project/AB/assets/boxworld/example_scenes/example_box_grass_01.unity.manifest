@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1286929286
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 925bc9d9271e5545510acc52cb7e4760
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_BOX_Grass_01.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_flower_big_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_
+  slope_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/foliage/fol_grass_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_02.prefab

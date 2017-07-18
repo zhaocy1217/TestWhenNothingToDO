@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63576ABA-4A40-934C-D330-C7D17E72811A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\FingerGestures\Dev\FingerDebug.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\ContinuousGestureRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\DiscreteGestureRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\FingerEventDetector.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizerDelegate.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\FingerClusterManager.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\ScreenRaycaster.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerDownDetector.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerHoverDetector.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerMotionDetector.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerUpDetector.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\FingerGestures.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\DragRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\LongPressRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PinchRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudGestureTemplate.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudRegognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\SwipeRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TapRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TwistRecognizer.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGInputProvider.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGMouseInputProvider.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGTouchInputProvider.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBDragView.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBLookAtTap.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBOrbit.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPan.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPinchZoom.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBDragToMove.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeMaterial.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeScale.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
+    <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grid.shader" />
+    <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+    <None Include="Assets\shader\Builtin\CGIncludes\AutoLight.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\HLSLSupport.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\Lighting.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\SpeedTreeBillboardCommon.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\SpeedTreeCommon.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\SpeedTreeVertex.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\SpeedTreeWind.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\TerrainEngine.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\TerrainSplatmapCommon.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\Tessellation.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityBuiltin2xTreeLibrary.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityBuiltin3xTreeLibrary.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityCG.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityDeferredLibrary.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityGlobalIllumination.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityLightingCommon.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityMetaPass.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityPBSLighting.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityShaderVariables.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityShadowLibrary.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardBRDF.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardConfig.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardCore.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardCoreForward.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardCoreForwardSimple.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardInput.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardMeta.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardShadow.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityStandardUtils.cginc" />
+    <None Include="Assets\shader\Builtin\CGIncludes\UnityUI.cginc" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Camera-DepthNormalTexture.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\DefaultETC1.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Font.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-BlitCopy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-Clear.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-Colored.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-CombineDepthNormals.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-ErrorShader.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-Flare.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-GUITexture.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-GUITextureBlit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-GUITextureClip.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-GUITextureClipText.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-Halo.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-PrePassCollectShadows.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-SplashShadowBlur.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-SplashShadowCaster.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-SplashShadowReceiver.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Internal-SplashShadowReceiverSimple.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\PerformanceTools\FrameDebuggerRenderTargetDisplay.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResources\Sprites-Default.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-Parallax.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-ParallaxSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Alpha-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-SoftEdgeUnlit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\AlphaTest-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Cubemaps\CubeBlend.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Cubemaps\CubeBlur.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Cubemaps\CubeBlurOdd.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Cubemaps\CubeCopy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Decal.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Flare.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\GIDebug\TextureUV.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\GIDebug\UV1sAsPositions.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\GIDebug\VertexColors.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-Parallax.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-ParallaxSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Illumin-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Internal-DeferredReflections.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Internal-DeferredShading.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Internal-PrePassLighting.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-DiffuseIntensity.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SpeedTree.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\SpeedTreeBillboard.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFast.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-BumpNolight.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-BumpVertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-Parallax.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-ParallaxSpec.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Reflect-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Skybox-Cubed.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Skybox-Procedural.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Skybox.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Sprites-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Details\VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Details\WavingGrass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Details\WavingGrassBillboard.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\AddPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\FirstPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Specular-AddPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Specular-Base.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Specular-FirstPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Standard-AddPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Standard-Base.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Splats\Standard-FirstPass.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\TerrainShaders\Trees\BillboardTree.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Default.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-DefaultFont.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Lit-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Lit-Detail.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Lit-Refraction.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Lit-RefractionDetail.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Lit-Transparent.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Unlit-Detail.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Unlit-Text.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Unlit-TextDetail.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\UI\UI-Unlit-Transparent.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Unlit\Unlit-Color.shader" />
+    <None Include="Assets\shader\Builtin\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Add(Stencil).shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Add.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle AddMultiply.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle AddSmooth.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Alpha Blend(Stencil).shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Alpha Blend.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Blend(Stencil).shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Blend.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Multiply.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle MultiplyDouble.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle Premultiply Blend.shader" />
+    <None Include="Assets\shader\Builtin\Particle\Particle VertexLit Blended.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-BumpSpec.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-Bumped.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-Diffuse.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-DiffuseDetail.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-DiffuseFast.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-Glossy.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-Parallax.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-ParallaxSpec.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Normal-VertexLit.shader" />
+    <None Include="Assets\shader\Builtin\Standard\Standard.shader" />
+    <None Include="Assets\shader\Builtin\Standard\StandardSpecular.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Diffuse-Reflect.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Diffuse-Reflect_ReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Diffuse.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Diffuse_ReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Diffusetemp.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Difuse_AlphaTest_Color.shader" />
+    <None Include="Assets\shader\Mobile\Const\Mobile-Difuse_AlphaTest_Color_ReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\Effect\Black.shader" />
+    <None Include="Assets\shader\Mobile\Effect\CutscenesEffect.shader" />
+    <None Include="Assets\shader\Mobile\Effect\Dust_FX.shader" />
+    <None Include="Assets\shader\Mobile\Effect\HSVFactor.shader" />
+    <None Include="Assets\shader\Mobile\Effect\Ice.shader" />
+    <None Include="Assets\shader\Mobile\Effect\Rain.shader" />
+    <None Include="Assets\shader\Mobile\Effect\RainSplash.shader" />
+    <None Include="Assets\shader\Mobile\Effect\UvAnimation.shader" />
+    <None Include="Assets\shader\Mobile\Effect\stone.shader" />
+    <None Include="Assets\shader\Mobile\Effect\uv_animation.shader" />
+    <None Include="Assets\shader\Mobile\Farm\UnlitHighlight.shader" />
+    <None Include="Assets\shader\Mobile\Other\Blood.shader" />
+    <None Include="Assets\shader\Mobile\Other\Dragon.shader" />
+    <None Include="Assets\shader\Mobile\Other\DragonHead.shader" />
+    <None Include="Assets\shader\Mobile\Other\Fog.shader" />
+    <None Include="Assets\shader\Mobile\Other\Rainbow.shader" />
+    <None Include="Assets\shader\Mobile\Other\RoleCubeMapSpecCap.shader" />
+    <None Include="Assets\shader\Mobile\Other\RoleCubeMapSpecCapAlphaTest.shader" />
+    <None Include="Assets\shader\Mobile\Other\ShaderGun\MADFINGER-Unlit-Scroll2Layers-Mul-Sine.shader" />
+    <None Include="Assets\shader\Mobile\Other\ShaderGun\MADFINGER-billboarded-blinking-god-rays.shader" />
+    <None Include="Assets\shader\Mobile\Other\ShaderGun\MADFINGER-blinking-god-rays.shader" />
+    <None Include="Assets\shader\Mobile\Other\grassCullout.shader" />
+    <None Include="Assets\shader\Mobile\Other\grassRunTimeCullout.shader" />
+    <None Include="Assets\shader\Mobile\Other\sunshine.shader" />
+    <None Include="Assets\shader\Mobile\Resources\AlphaFactor.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Bati.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Blend.shader" />
+    <None Include="Assets\shader\Mobile\Resources\CameraBlend.shader" />
+    <None Include="Assets\shader\Mobile\Resources\CameraFilterPack_Blend2Camera_Color.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Cartoon2.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ContrastVignette.shader" />
+    <None Include="Assets\shader\Mobile\Resources\CutscenesEffect.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Blur_Blurry.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Blur_Blurry_code.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Blur_Radial_Fast.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Color_GrayScale.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Color_RGB.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Color_RGB2.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_EyesVision_1.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_HardLight.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\CameraFilterPack_Vision_Blood.shader" />
+    <None Include="Assets\shader\Mobile\Resources\EffectCamera\MirrorChange.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Elite.shader" />
+    <None Include="Assets\shader\Mobile\Resources\FakeShadow.shader" />
+    <None Include="Assets\shader\Mobile\Resources\FakeShadowAlpha.shader" />
+    <None Include="Assets\shader\Mobile\Resources\FastBloom.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Fog.shader" />
+    <None Include="Assets\shader\Mobile\Resources\HSVFactor.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Ice.shader" />
+    <None Include="Assets\shader\Mobile\Resources\LightFace.cginc" />
+    <None Include="Assets\shader\Mobile\Resources\LightfaceWaterFlare.shader" />
+    <None Include="Assets\shader\Mobile\Resources\LinkEffect.shader" />
+    <None Include="Assets\shader\Mobile\Resources\LowHp.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Lutify.cginc" />
+    <None Include="Assets\shader\Mobile\Resources\Lutify2D.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Main Role.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MainColor.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MainColorTexture.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MainLightFaceDay.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MainLightFaceMask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MainLightFaceNight.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Mask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MobileBloom.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MobileBlur.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MotionBlur.shader" />
+    <None Include="Assets\shader\Mobile\Resources\MySunShaftsComposite.shader" />
+    <None Include="Assets\shader\Mobile\Resources\OutlineEffect\Blur.shader" />
+    <None Include="Assets\shader\Mobile\Resources\OutlineEffect\Outline.shader" />
+    <None Include="Assets\shader\Mobile\Resources\OutlineEffect\OutlineReplace.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Probe.shader" />
+    <None Include="Assets\shader\Mobile\Resources\PwNgs_ProjectTexture.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleCreate.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleDiffRimCubeMapSpec.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleDiffRimCubeMapSpecOutline.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleDiffRimCubeMapSpecTransparent.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleHit.shader" />
+    <None Include="Assets\shader\Mobile\Resources\RoleTransparent.shader" />
+    <None Include="Assets\shader\Mobile\Resources\SimpleClear.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Soul.shader" />
+    <None Include="Assets\shader\Mobile\Resources\SunShaftsComposite.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Sunder.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Telescope.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\Base.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\Blend.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\BlendCache.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\Common.cginc" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\DepthMask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\DepthMaskBlend.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\Mask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\MaskBlend.shader" />
+    <None Include="Assets\shader\Mobile\Resources\ThirdShader\AmplifyColor\ProcessOnly.shader" />
+    <None Include="Assets\shader\Mobile\Resources\TransObject.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI-Fluxay.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI-Gray.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI-Shadow.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\GuideLocalMask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - B (Gray).shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - B.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - G (Gray).shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - G.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - R (Gray).shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Default - R.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-DefaultUIModel.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Disappear.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-Disappeary.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UI-EffectMask.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UI\UIRoleShader.shader" />
+    <None Include="Assets\shader\Mobile\Resources\UIRole.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Unlit - Gray.shader" />
+    <None Include="Assets\shader\Mobile\Resources\Unlit-TextureOnly.shader" />
+    <None Include="Assets\shader\Mobile\Resources\WaterTransition.shader" />
+    <None Include="Assets\shader\Mobile\Resources\depth.shader" />
+    <None Include="Assets\shader\Mobile\Resources\lightmapTrans.shader" />
+    <None Include="Assets\shader\Mobile\Resources\lightmapTrans2.shader" />
+    <None Include="Assets\shader\Mobile\Resources\sf-gooch-alphaclip.shader" />
+    <None Include="Assets\shader\Mobile\Resources\sf-gooch.shader" />
+    <None Include="Assets\shader\Mobile\Resources\stone.shader" />
+    <None Include="Assets\shader\Mobile\Resources\testuirole.shader" />
+    <None Include="Assets\shader\Mobile\Resources\wing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\HeatDistort.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\HeatDistortGrab.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\Twist.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\TwistGrab.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\glass.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Grab\pubu.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\LightLine.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Effect.cginc" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\GatheringRole.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Grass.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\GrassStatic.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFace.cginc" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceLamp.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceLamp110.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceLamp80.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceLeaf90.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceMul_UV_Animation.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceProbe.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightFaceShadow90.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\LightmapFlow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Mirror.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Ocean.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Role.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\RoleDiffRim.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\RoleDiffRimCubeMapBumpSpec.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\SceneUvAnimation.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Scene_Sky_Cap.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Scene_Sky_Surround.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Skybox-Cubed.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\SoulTree.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\TerrainXRender.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\TerrainXRenderBumpDirect.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\TerrainXRenderWater.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\TerrainXRenderWaterDirect.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Transparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Tree.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\Weather.cginc" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\background.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmap.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapAlphaTest.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapAlphaTestReceiveShaodow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapCubmapReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapDiffSpec.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapDiffSpecReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapDiffSpecReceiveShadowTransparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapDiffSpecTransparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapNoLightFaceReceiveShaodow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReceiveShadowBump.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReceiveShadowBumpDirect.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReflect.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReflectReceiveShadow.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReflectReceiveShadowFuck.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapReflectReceiveShadowTransparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapTrans3.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\lightmapTransparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\water.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\waterCubeMap.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Lightface\wingTransparent.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Other\Clouds.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Other\CloudsSimple.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Other\cloudShadowCaster.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\AdditiveWing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\FireWing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\FireWing2.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\SmokeWing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\TransparentWing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\TransparentWing2.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\UVFlowWing.shader" />
+    <None Include="Assets\shader\Mobile\TerrainX\Wing\WingBody.shader" />
+    <None Include="Assets\shader\Mobile\UI\UIFlash.shader" />
+    <None Include="Assets\shader\Mobile\editor\LightFaceBake.shader" />
+    <None Include="Assets\shader\Mobile\editor\TerrainBrushPrjLight.shader" />
+    <None Include="Assets\shader\SF\RoleDiffRimCubeMap.shader" />
+    <None Include="Assets\shader\SF\RoleTemplate.shader" />
+    <None Include="Assets\shader\SF\RoleTemplateRim.shader" />
+    <None Include="Assets\shader\SF\TerrainReflect.shader" />
+    <None Include="Assets\shader\UI\UIGRey.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

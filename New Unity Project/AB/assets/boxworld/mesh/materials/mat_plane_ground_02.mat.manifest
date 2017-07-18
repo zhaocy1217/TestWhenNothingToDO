@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 785783204
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28a3db5277e3cfd4bc5fef9240f06e38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Plane_Ground_02.mat
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/textures/plane_ground_01.tga

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 732016008
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 36ad1344140e1d59c705d6d453196cc5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Leaf_02.mat
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/textures/flower_01.tga

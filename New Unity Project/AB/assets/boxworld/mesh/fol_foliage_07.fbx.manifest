@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 12515566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f937dec4dc813aae68ca4a09087b4a6d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/FOL_Foliage_07.FBX
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_foliage_01.mat

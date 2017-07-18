@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2481938901
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8f71d0f8e51e0eb11e7960405f9a103f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/OBJ_MIDRock_01.FBX
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_midrock_01.mat

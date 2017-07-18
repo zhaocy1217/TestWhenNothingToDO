@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3348366826
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fb3f38433ac7fb5177f29f758489eaf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e69cf4aea34f06169d815d14bb7707cf
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Clouds_01.mat
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 970633908
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6709f5d7d01927f5ac263d5cc75df075
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Building_03.mat
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/textures/building_a2.tga
