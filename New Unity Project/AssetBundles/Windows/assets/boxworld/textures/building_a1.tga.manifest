@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3288937695
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5d03f754dda654589a064e26232eb1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Building_A1.tga
+Dependencies: []

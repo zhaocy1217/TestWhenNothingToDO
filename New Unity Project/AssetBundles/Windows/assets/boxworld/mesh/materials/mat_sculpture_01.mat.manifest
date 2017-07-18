@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1835997840
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0de7f079158c050c5c02e781cf03e76c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Sculpture_01.mat
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/textures/sculpture_01.tga

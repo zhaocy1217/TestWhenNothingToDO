@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 4052718678
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59c728281dac7fe5fdbff531b536c62a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_Building_03.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/building/bud_building_e_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_woodroad_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_barrier_b_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/foliage/fol_grass_05.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_flag_b_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox33_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox23_
+  slope_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_flag_b_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/foliage/fol_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/clouds/obj_clouds_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/foliage/fol_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_bulletin_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_06.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox23_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_flag_b_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/foliage/fol_grass_08.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_04.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox2_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/clouds/obj_clouds_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/prop/obj_flag_c_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/building/bud_bridge_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/clouds/obj_clouds_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox_grass_bod_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox22_grass_02.prefab

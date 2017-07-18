@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3465952575
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 173ae7694f2bcf0bd1269a347e3d0fcc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/PBOX23_Grass_01.FBX
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_collider_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_table_grassmud_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_plane_grass_01.mat

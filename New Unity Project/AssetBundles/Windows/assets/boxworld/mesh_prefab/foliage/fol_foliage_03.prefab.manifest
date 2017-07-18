@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 546089007
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c977c7cddc3792daedafbf86b4c913c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Foliage/FOL_Foliage_03.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_foliage_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/fol_foliage_03.fbx

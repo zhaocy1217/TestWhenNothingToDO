@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2573711854
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce7d1ea96a8950ffdd8dad561729c40d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/FOL_Flower_Big_02.FBX
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_leaf_01.mat

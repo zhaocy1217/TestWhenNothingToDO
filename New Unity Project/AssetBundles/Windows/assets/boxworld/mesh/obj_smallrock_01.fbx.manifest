@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1270974821
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4be43e5ede5b684f943d83ca8e5ffb9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/OBJ_SmallRock_01.FBX
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_smallrock_01.mat

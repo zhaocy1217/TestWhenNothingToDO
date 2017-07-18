@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2017804273
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b805d024b78f5614575cf1b90f841100
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Plane_Grass_01.tga
+Dependencies: []

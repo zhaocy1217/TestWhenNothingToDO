@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1918382654
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ea44be3713cde819a2d355e3a4a97f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Animal/Ani_OWL.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_animal_01.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/ani_owl.fbx

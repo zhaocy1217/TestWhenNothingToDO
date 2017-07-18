@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 886618400
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a56028ba8525e9aa9f2149910b74159b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 593a0bc0d9eeda1d24ce601efe8ca648
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Prop/OBJ_WoodRoad_01.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_propb_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/obj_woodroad_01.fbx

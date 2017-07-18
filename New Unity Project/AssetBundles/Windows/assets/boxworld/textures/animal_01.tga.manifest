@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3554454964
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4a501e739afd425d47c86b3edf2e6b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Animal_01.tga
+Dependencies: []

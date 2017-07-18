@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2048268215
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d700fe778fa4417c89ab982b279d5b71
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Rock_MID.tga
+Dependencies: []

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2e705672d98e07e49abe1a496dabf897
+timeCreated: 1466503405
+licenseType: Free
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: assets/shader/builtin/standard/standard.shader
+  assetBundleVariant: 

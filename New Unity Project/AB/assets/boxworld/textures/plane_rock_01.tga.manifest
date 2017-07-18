@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3003956753
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6d7d6eba7b5a09f7e27801b348167feb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Plane_Rock_01.tga
+Dependencies: []

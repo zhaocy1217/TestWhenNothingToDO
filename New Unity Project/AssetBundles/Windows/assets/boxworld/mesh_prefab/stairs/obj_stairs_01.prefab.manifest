@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 927253605
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23dfbfb28034932d3c4a1fcdcb86469f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31efa398c2c95d480b47877ca2079d2e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Stairs/OBJ_Stairs_01.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_prop_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/obj_stairs_01.fbx

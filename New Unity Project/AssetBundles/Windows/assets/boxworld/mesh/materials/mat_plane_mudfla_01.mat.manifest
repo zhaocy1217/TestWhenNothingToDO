@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3329215190
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f37854a1b8253f8476ecc21738ef264d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/MAT_Plane_MudFLA_01.mat
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/textures/plane_rock_01.tga

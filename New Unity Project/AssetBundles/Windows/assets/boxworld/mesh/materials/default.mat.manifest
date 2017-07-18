@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2019450496
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4cc1fc459429c2c1f3df5f637a370d1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e69cf4aea34f06169d815d14bb7707cf
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/mesh/Materials/Default.mat
+Dependencies: []

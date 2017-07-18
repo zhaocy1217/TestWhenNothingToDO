@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 20fd2986f08633e42ab54f7e37ce8855
+timeCreated: 1466503403
+licenseType: Free
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: assets/shader/builtin/standard/normal-diffuse.shader
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2558558947
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43d976bb57be5722159541d20e706046
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7bd39743cce4d37940997ab4332a0cd7
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/shader/Builtin/Standard/Normal-VertexLit.shader
+Dependencies: []

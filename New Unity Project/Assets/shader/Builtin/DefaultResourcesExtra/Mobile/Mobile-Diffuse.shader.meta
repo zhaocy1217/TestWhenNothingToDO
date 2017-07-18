@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1d9e6b2dc04620c4f8ed9e7414ea343e
+timeCreated: 1466503403
+licenseType: Free
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: assets/shader/builtin/defaultresourcesextra/mobile/mobile-diffuse.shader
+  assetBundleVariant: 

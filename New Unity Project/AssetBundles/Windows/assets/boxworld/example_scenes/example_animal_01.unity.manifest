@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1098112458
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a153e1d39a4606dbd57fac93d3854a89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BoxWorld/Example_Scenes/Example_Animal_01.unity
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_03.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_01.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/animal/ani_owl.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/animal/ani_fox.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/plane_grass/pbox1_grass_02.prefab
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh_prefab/animal/ani_bird.prefab

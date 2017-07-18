@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1498291804
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b11c7b33a56484af66b9ca6cb3316d77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Rock_Small.tga
+Dependencies: []

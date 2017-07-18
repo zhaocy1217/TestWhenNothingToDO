@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3628014429
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bbd3e270ee8050f65368183dcfdb2088
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Plane_MudFlagging/PBOX1_MudFlA_04.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_collider_01.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_table_rock_01.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_plane_mudfla_01.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/pbox1_mudfla_04.fbx

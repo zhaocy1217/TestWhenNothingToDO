@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a986f99571189ab49861f193b03ea5cc
+timeCreated: 1466503434
+licenseType: Free
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: assets/shader/builtin/standard/normal-vertexlit.shader
+  assetBundleVariant: 

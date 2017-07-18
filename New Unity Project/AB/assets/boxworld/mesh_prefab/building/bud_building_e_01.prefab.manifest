@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 4257003648
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a8829a5a3612c537984401196214f975
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Building/BUD_Building_E_01.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_building_02.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/bud_building_e_01.fbx

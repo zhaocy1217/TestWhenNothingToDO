@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 2634518394
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ef50c80d87ea54b932bcf20d2a74da77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Plane_Mud/PBOX_Mud_BOD_001.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_collider_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/materials/mat_plane_mud_01.mat
+- D:/TestProjs/ABTest/New Unity Project/AssetBundles/Windows/assets/boxworld/mesh/pbox_mud_bod_001.fbx

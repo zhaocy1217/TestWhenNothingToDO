@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 529235236
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cda139204ad86ba9d37211abe02adaec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5aebbd669b69b71c6e37ab00bc730a48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Mesh_Prefab/Rock/OBJ_SmallRock_09.prefab
+Dependencies:
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/materials/mat_smallrock_01.mat
+- D:/TestProjs/ABTest/New Unity Project/Assets/../AB/assets/boxworld/mesh/obj_smallrock_09.fbx

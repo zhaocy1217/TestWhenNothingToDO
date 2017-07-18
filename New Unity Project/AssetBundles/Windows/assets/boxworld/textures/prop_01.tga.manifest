@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 370621487
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a61a5d965354a9ce2f8628da69d47203
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/BoxWorld/Textures/Prop_01.tga
+Dependencies: []
