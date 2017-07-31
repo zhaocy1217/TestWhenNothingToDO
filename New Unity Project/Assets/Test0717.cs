@@ -17,6 +17,7 @@ public class Test0717 : MonoBehaviour
     private Mesh m;
     void Start()
     {
+        Matrix4x4 m;
         //Generate();
     }
     public void Generate()
@@ -27,6 +28,7 @@ public class Test0717 : MonoBehaviour
         Vector3[] vs = new Vector3[width * height];
         Vector2[] uvs = new Vector2[width * height];
         List<int> ts = new List<int>();
+
         for (int i = 0; i < height; i++)
         {
             for (int j = 0; j < width; j++)
