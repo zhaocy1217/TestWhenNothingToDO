@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 Shader "GOE/Role/RoleDiffRimCubeMapSpec" {
     Properties 
@@ -56,7 +58,7 @@ Shader "GOE/Role/RoleDiffRimCubeMapSpec" {
 				{
 					v2f o;
 					WORLD_POS
-					o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos (v.vertex);
 					o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex).xy;
 					o.normalDir = UnityObjectToWorldNormal(v.normal);
 					o.posWorld = worldPos;

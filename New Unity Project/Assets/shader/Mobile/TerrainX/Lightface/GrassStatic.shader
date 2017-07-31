@@ -1,4 +1,6 @@
-﻿
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 Shader "GOE/Scene/GrassStatic" {
 	Properties {
 	_Color("Diffuse Color", Color) = (1,1,1,1)
@@ -57,7 +59,7 @@ Category
 
 					WORLD_POS
 
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
 					o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
 
 					LIGHTFACE_VS

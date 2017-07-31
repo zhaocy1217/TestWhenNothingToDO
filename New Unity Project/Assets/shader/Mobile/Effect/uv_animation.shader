@@ -1,4 +1,6 @@
-﻿Shader "GOE/uv animation" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/uv animation" {
 	Properties {
 		Speed ("纹理滚动速度", Range (0.01, 50.0)) = 1
 		Direction ("纹理滚动方向", Range (-1, 1)) = 1
@@ -34,7 +36,7 @@
 				in VertexIn posIn,
 				out VertexToSurf posOut
 				) {
-				posOut.oPosition = mul(UNITY_MATRIX_MVP, posIn.position);
+				posOut.oPosition = UnityObjectToClipPos(posIn.position);
 				posOut.uvPosition = TRANSFORM_TEX(posIn.texcoord, _MainTex);
 			}
 			

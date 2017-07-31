@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "GOE/Scene/Skybox-Cubemap" {
@@ -53,7 +55,7 @@ SubShader {
 		v2f vert (appdata_t v)
 		{
 			v2f o;
-			o.pos = mul(UNITY_MATRIX_MVP, RotateAroundYInDegrees(v.vertex, _Rotation));
+			o.pos = UnityObjectToClipPos(RotateAroundYInDegrees(v.vertex, _Rotation));
 			o.uv = v.vertex.xyz;
 
 			float4 worldPos = mul(unity_ObjectToWorld, RotateAroundYInDegrees(v.vertex, _Rotation));

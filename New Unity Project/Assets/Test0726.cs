@@ -18,7 +18,6 @@ public class Test0726 : MonoBehaviour {
 	// Use this for initialization
 	void OnEnable ()
     {
-
         r.x = x;
         r.z = z;
         r.width = width;
@@ -84,7 +83,6 @@ public class Test0726 : MonoBehaviour {
     }
     bool InRect(Matrix4x4 m, RectInfo r, Vector3 posi)
     {
-       
 #if UNITY_EDITOR
         Vector3 leftdown = new Vector3(r.x - r.width/2f, 0, r.z);
         Vector3 rightdown = new Vector3(r.x + r.width/2f, 0, r.z);

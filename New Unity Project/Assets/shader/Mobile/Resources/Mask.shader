@@ -1,4 +1,6 @@
-﻿Shader "GOE/Mask" 
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Mask" 
 {
 	SubShader 
 	{
@@ -16,7 +18,7 @@
 		v2f vert(appdata v) 
 		{
 			v2f o;
-			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos(v.vertex);
 			return o;
 		}
 		half4 frag(v2f i) : SV_Target 

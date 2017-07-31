@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: commented out 'half4 unity_LightmapST', a built-in variable
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: commented out 'half4 unity_LightmapST', a built-in variable
 // Upgrade NOTE: commented out 'sampler2D unity_Lightmap', a built-in variable
 // Upgrade NOTE: replaced tex2D unity_Lightmap with UNITY_SAMPLE_TEX2D
 
@@ -91,7 +93,7 @@ Shader "GOE/Depleted/Lightmap Reflect Receive Shadow Fuck"
 		o.uv.zw = half2(1,1);
 #endif
 
-		o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+		o.pos = UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 		o.reflectUV = ComputeScreenPos(o.pos);
 #ifdef LIGHT_FACE_ON	
 		o.uv_Lightface.xy = LightFaceUV(worldPos);

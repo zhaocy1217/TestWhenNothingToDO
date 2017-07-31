@@ -1,4 +1,6 @@
-﻿Shader "GOE/HSVFactor" 
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/HSVFactor" 
 {
 	Properties
 	{
@@ -39,7 +41,7 @@ SubShader {
 			{
 				v2f o;
 				o.uv = v.texcoord.xy;
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 				return o;
 			}
 			fixed3 rgb2hsv(fixed3 c)

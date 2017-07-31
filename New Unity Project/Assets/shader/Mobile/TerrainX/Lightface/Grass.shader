@@ -1,4 +1,6 @@
-﻿
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 Shader "GOE/Scene/Grass" {
 	Properties {
 	_Color("Diffuse Color", Color) = (1,1,1,1)
@@ -77,7 +79,7 @@ Category
 					//v.vertex.x += (v.color.g - 0.5)*(v.color.b * cos(_Time.y * _MinSpeed) * _MinSwing + waveDir.x * distMulti * v.color.b * _RockFactor);
 					//v.vertex.z += (v.color.g - 0.5)*(v.color.b * sin(_Time.y * _MinSpeed) * _MinSwing + waveDir.z * distMulti * v.color.b * _RockFactor);
 	#endif
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
 					o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
 
 					LIGHTFACE_VS

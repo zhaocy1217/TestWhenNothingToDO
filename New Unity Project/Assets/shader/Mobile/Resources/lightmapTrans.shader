@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: commented out 'half4 unity_LightmapST', a built-in variable
 // Upgrade NOTE: commented out 'sampler2D unity_Lightmap', a built-in variable
 // Upgrade NOTE: replaced tex2D unity_Lightmap with UNITY_SAMPLE_TEX2D
@@ -50,7 +52,7 @@ SubShader {
 			v2f vert (appdata v)
 			{
 				v2f o;
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 				o.uv.xy = v.texcoord.xy;
 				return o;
 			}
@@ -120,7 +122,7 @@ SubShader {
 				o.uv2 = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
 				#endif
 
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 
 				return o;
 			}

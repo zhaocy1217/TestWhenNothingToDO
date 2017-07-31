@@ -14,14 +14,14 @@ public class UIMask : RectMask2D
 
 		if (leftBottom == null)
 		{
-			leftBottom = transform.FindChild("_leftBottom") as RectTransform;
+			leftBottom = transform.Find("_leftBottom") as RectTransform;
 			if (leftBottom == null)
 				leftBottom = CreateChild("_leftBottom", Vector2.zero, Vector2.zero);
 		}
 
 		if (rightTop == null)
 		{
-			rightTop = transform.FindChild("_rightTop") as RectTransform;
+			rightTop = transform.Find("_rightTop") as RectTransform;
 			if (rightTop == null)
 				rightTop = CreateChild("_rightTop", Vector2.one, Vector2.one);
 		}

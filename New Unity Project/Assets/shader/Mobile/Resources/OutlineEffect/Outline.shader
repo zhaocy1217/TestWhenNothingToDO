@@ -1,4 +1,6 @@
-﻿Shader "GOE/Outline/Outline"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Outline/Outline"
 {
 	Properties
 	{
@@ -45,7 +47,7 @@
 			v2f vert(a2v v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.texcoord.xy;
 
 				return o;

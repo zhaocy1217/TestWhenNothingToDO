@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 // Upgrade NOTE: commented out 'float4x4 _Object2World', a built-in variable
@@ -43,7 +45,7 @@ CGPROGRAM
 
             v2f vert(appdata v) {
                 v2f o;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 o.wp = (float3)mul(unity_ObjectToWorld, v.vertex);
                 return o;
             }

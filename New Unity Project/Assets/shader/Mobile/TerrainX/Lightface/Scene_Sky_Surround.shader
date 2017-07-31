@@ -1,4 +1,6 @@
-﻿Shader "GOE/Scene/Sky_Surround" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Scene/Sky_Surround" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _ChangeTex ("Base (RGB)", 2D) = "white" {}
@@ -40,7 +42,7 @@
         {
 			WORLD_POS
             v2f o;
-            o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+            o.pos = UnityObjectToClipPos (v.vertex);
             o.uv = v.texcoord.xy;
             o.alpha = v.color.a;
 			FOG_VS

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Wing/FireWing2" {
     Properties {
     	_Color("Color", Color) = (1, 0.4, 0, 1)
@@ -54,7 +56,7 @@ Shader "GOE/Wing/FireWing2" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.vertexColor = v.vertexColor;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
                 return o;
             }
 
@@ -111,7 +113,7 @@ Shader "GOE/Wing/FireWing2" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.vertexColor = v.vertexColor;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
 
 				WORLD_POS
 				LIGHTFACE_VS

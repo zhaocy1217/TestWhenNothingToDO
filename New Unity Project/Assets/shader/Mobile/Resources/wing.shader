@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Transparent/IceFire/CullOut/Wing" 
 {
 
@@ -70,7 +72,7 @@ SubShader {
 		v2f_full vert (appdata_full v) 
 		{
 			v2f_full o;
-			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos (v.vertex);
 			o.uv.xy = TRANSFORM_TEX(v.texcoord ,_MainTex);
 		//	o.uv_BumpMap.xy = TRANSFORM_TEX(v.texcoord1, _BumpMap);
 			o.noiseScrollUv.xyzw = v.texcoord.xyxy;// *_TexAtlasTiling + _Time.xxxx * _Speed * _DirectionUv;

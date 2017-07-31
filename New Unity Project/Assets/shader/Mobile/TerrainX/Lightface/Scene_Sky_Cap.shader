@@ -1,4 +1,6 @@
-﻿Shader "GOE/Scene/Sky_Cap" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Scene/Sky_Cap" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _ScrollX ("Base layer Scroll speed X", Float) = 1.0
@@ -37,7 +39,7 @@
         {
 			WORLD_POS
             v2f o;
-            o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+            o.pos = UnityObjectToClipPos (v.vertex);
             o.uv = TRANSFORM_TEX(v.texcoord.xy,_MainTex) + frac(float2(_ScrollX, _ScrollY) * _Time);
 
 			FOG_VS

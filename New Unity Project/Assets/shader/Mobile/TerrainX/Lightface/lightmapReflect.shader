@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Scene/Lightmap Reflect" 
 {
 Properties 
@@ -66,7 +68,7 @@ SubShader {
 				v2f o;
 				o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
 							
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 				o.reflectUV = ComputeScreenPos(o.pos);
 				o.reflectUV.xy = TRANSFORM_TEX(o.reflectUV.xy, _RefTex)/o.reflectUV.w;
 				half2 capCoord;

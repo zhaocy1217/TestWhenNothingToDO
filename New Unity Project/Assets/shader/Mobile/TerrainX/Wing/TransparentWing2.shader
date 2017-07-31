@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Wing/Transparent Wing2" 
 {
     Properties 
@@ -56,7 +58,7 @@ Shader "GOE/Wing/Transparent Wing2"
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.vertexColor = v.vertexColor;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
 
                 return o;
             }
@@ -106,7 +108,7 @@ Shader "GOE/Wing/Transparent Wing2"
             {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
 
 				WORLD_POS
 				LIGHTFACE_VS

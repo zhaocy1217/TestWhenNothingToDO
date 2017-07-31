@@ -1,4 +1,6 @@
-﻿Shader "GOE/Scene/SceneUvAnimation" 
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Scene/SceneUvAnimation" 
 {
 	Properties
 	{
@@ -57,7 +59,7 @@
 		v2f o;
 		o.uv = TRANSFORM_TEX(v.texcoord,_MainTex);//v.texcoord.xy;
 		o.color = v.color;
-		o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+		o.pos = UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 		WORLD_POS
 		FOG_VS
 		return o;

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Scene/LightmapAlphaTest Receive Shadow" 
 {
 Properties 
@@ -56,7 +58,7 @@ SubShader {
 				v2f o;
 				o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
 
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 
 				LIGHTMAP_VS
 				LIGHTFACE_VS

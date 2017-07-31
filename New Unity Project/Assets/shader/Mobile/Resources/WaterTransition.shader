@@ -1,4 +1,6 @@
-﻿Shader "GOE/WaterTransition"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/WaterTransition"
 {
 	Properties {
 		_Color("Main Color", Color) = (1,1,1,1)
@@ -22,7 +24,7 @@
     
         v2f vert(appdata_full v) {
             v2f o;
-            o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+            o.pos = UnityObjectToClipPos (v.vertex);
             o.uv.xy = v.texcoord.xy;
             o.uv.z = v.texcoord.x - _Time.x * 4 ;
 			o.uv.w = v.texcoord.y - _Time.x;

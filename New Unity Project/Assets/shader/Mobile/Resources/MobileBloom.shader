@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/MobileBloom" {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
@@ -38,7 +40,7 @@ Shader "Hidden/MobileBloom" {
 	v2f_simple vertBloom(appdata_img v)
 	{
 		v2f_simple o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv = v.texcoord.xyxy;
 		return o;
 	}
@@ -46,7 +48,7 @@ Shader "Hidden/MobileBloom" {
 	v2f_withMaxCoords vertMax(appdata_img v)
 	{
 		v2f_withMaxCoords o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv = v.texcoord;
 		o.uv2[0] = v.texcoord + _MainTex_TexelSize.xy * half2(1.5, 1.5);
 		o.uv2[1] = v.texcoord + _MainTex_TexelSize.xy * half2(-1.5, 1.5);
@@ -58,7 +60,7 @@ Shader "Hidden/MobileBloom" {
 	v2f_withBlurCoords vertBlurVertical(appdata_img v)
 	{
 		v2f_withBlurCoords o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv2[0] = v.texcoord + _MainTex_TexelSize.xy * half2(0.0, -1.5);
 		o.uv2[1] = v.texcoord + _MainTex_TexelSize.xy * half2(0.0, -0.5);
 		o.uv2[2] = v.texcoord + _MainTex_TexelSize.xy * half2(0.0, 0.5);
@@ -69,7 +71,7 @@ Shader "Hidden/MobileBloom" {
 	v2f_withBlurCoords vertBlurHorizontal(appdata_img v)
 	{
 		v2f_withBlurCoords o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv2[0] = v.texcoord + _MainTex_TexelSize.xy * half2(-1.5, 0.0);
 		o.uv2[1] = v.texcoord + _MainTex_TexelSize.xy * half2(-0.5, 0.0);
 		o.uv2[2] = v.texcoord + _MainTex_TexelSize.xy * half2(0.5, 0.0);

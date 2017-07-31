@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 // Upgrade NOTE: commented out 'half4 unity_LightmapST', a built-in variable
@@ -127,7 +129,7 @@ CGINCLUDE
 
 		o.viewDir.xyz = normalize(worldSpaceVertex - _WorldSpaceCameraPos);
 		o.LightDir.xyz = normalize(worldSpaceVertex - _SunDirection.xyz);
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		
 		o.depth = SimulateFogVS(o.pos.xyz, worldSpaceVertex.xyz);
 

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "GOE/Role/RoleOutlineSpecDissolve" 
@@ -48,7 +50,7 @@ Shader "GOE/Role/RoleOutlineSpecDissolve"
 			v2f vert(appdata_base v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 
 				float3 norm = normalize(mul((float3x3)UNITY_MATRIX_IT_MV, v.normal));
 				float2 offset = TransformViewToProjection(norm.xy);
@@ -103,7 +105,7 @@ Shader "GOE/Role/RoleOutlineSpecDissolve"
 			v2f vert (appdata_base v) 
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv = TRANSFORM_TEX(v.texcoord.xy, _MainTex);
 				o.normal = normalize(mul(unity_ObjectToWorld, float4_t(v.normal, 0)).xyz);
 

@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 // Upgrade NOTE: commented out 'half4 unity_LightmapST', a built-in variable
 // Upgrade NOTE: commented out 'sampler2D unity_Lightmap', a built-in variable
@@ -141,7 +143,7 @@ Shader "GOE/Scene/Ocean"
 
 		o.viewDir.xyz = normalize(worldSpaceVertex - _WorldSpaceCameraPos);
 		o.LightDir.xyz = normalize(worldSpaceVertex - _SunDirection.xyz);
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 
 ////////// Light Face
 #ifdef LIGHT_FACE_ON

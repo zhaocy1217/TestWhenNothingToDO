@@ -1,4 +1,6 @@
-﻿
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 Shader "GOE/Grab/Pubu" 
 {
 Properties {
@@ -79,7 +81,7 @@ ENDCG
 				v2f vert (appdata_t v)
 				{
 					v2f o;
-					o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.vertex = UnityObjectToClipPos(v.vertex);
 					o.vertex.xyzw /= o.vertex.w;
 					o.uvgrab.xyzw = ComputeScreenPos(o.vertex);
 					o.uvgrab.xyzw /= o.uvgrab.w ;

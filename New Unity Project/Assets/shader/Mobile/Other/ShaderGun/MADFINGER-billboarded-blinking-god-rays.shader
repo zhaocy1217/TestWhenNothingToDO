@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
 
@@ -132,7 +134,7 @@ SubShader {
 		wave += _Bias;
 		
 		o.uv		= v.texcoord.xy;
-		o.pos	= mul(UNITY_MATRIX_MVP, float4(BBLocalPos,1));
+		o.pos	= UnityObjectToClipPos(float4(BBLocalPos,1));
 		o.color	= CalcFadeOutFactor(localDirLength) * _Color * _Multiplier * wave;
 						
 		return o;

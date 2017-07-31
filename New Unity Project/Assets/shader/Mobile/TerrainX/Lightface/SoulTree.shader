@@ -1,4 +1,6 @@
-﻿
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 Shader "GOE/Scene/Soul Tree" {
 	Properties {
 	_Color("Diffuse Color", Color) = (1,1,1,1)
@@ -56,7 +58,7 @@ Category {
 				v.vertex.x += (v.color.g - 0.5)*(v.texcoord.y * cos(_Time.y * _MinSpeed) * _MinSwing + v.texcoord.y * sin(v.color.r * UNITY_PI * 2) * _RockFactor * percentage);
 				v.vertex.z += (v.color.g - 0.5)*(v.texcoord.y * sin(_Time.y * _MinSpeed) * _MinSwing + v.texcoord.y * sin(v.color.r * UNITY_PI * 2) * _RockFactor * percentage);
 				
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
 
 				WORLD_POS

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Lightmap Transparent2"
 {
 	Properties
@@ -65,7 +67,7 @@ Shader "GOE/Lightmap Transparent2"
 						o.uv2 = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
 						#endif
 
-						o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+						o.pos = UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 		#ifdef LIGHT_FACE_ON
 						o.uv.zw = LightFaceUV(worldPos);
 		#else

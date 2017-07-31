@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Scene/TerrainXRender" 
 {
 Properties 
@@ -77,7 +79,7 @@ SubShader
 				WORLD_POS
 				v2f o;
 				o.uv.xy = v.texcoord.xy;
-				o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos = UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 				o.normalDir = UnityObjectToWorldNormal(v.normal);
 				o.posWorld = worldPos;
 

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Projector' with 'unity_Projector'
 
 Shader "Projector/Object Brush" {
@@ -23,7 +25,7 @@ Shader "Projector/Object Brush" {
         v2f vert(appdata_base v)
         {
             v2f o;
-            o.pos=mul(UNITY_MATRIX_MVP,v.vertex);
+            o.pos=UnityObjectToClipPos(v.vertex);
             o.texc=mul(unity_Projector,v.vertex);
             return o;
         }

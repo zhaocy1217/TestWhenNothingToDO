@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/UI/UI Flash" 
 {
 	Properties 
@@ -52,7 +54,7 @@ SubShader
 				o.uv_MainTex = v.texcoord.xy;
 				o.uv_FlashTex = v.texcoord.xy;
 				o.uv_FlashTex -= _Time.xx * _DirectionUv.zw * _DirectionUv.xy; 
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				return o;
 			}
 			

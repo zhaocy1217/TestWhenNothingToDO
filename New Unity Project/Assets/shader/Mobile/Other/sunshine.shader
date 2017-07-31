@@ -1,4 +1,6 @@
-﻿Shader "GOE/Effect/Sun Shine" 
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Effect/Sun Shine" 
 {
 Properties 
 {
@@ -55,7 +57,7 @@ SubShader {
 				
 				o.uv.xy = TRANSFORM_TEX(v.texcoord,_MainTex).xy;
 				o.color = v.color;
-				o.pos =  mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos =  UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 				o.uv.z = (o.pos.z);
 				return o;
 			}

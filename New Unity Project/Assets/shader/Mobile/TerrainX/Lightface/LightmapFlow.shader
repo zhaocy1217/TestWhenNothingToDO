@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Scene/LightmapFlow" 
 {
 
@@ -77,7 +79,7 @@ SubShader {
 		{
 			WORLD_POS
 			v2f_full o;
-			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos (v.vertex);
 			o.uv.xy = TRANSFORM_TEX(v.texcoord ,_MainTex);
 			o.color = v.color;
 #ifdef LIGHT_FACE_ON

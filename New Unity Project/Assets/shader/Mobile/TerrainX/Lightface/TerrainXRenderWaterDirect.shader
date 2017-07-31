@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "GOE/Scene/TerrainXRenderWaterDirect" 
@@ -102,7 +104,7 @@ SubShader
 				WORLD_POS
 				v2f o;
 				o.uv.xy = v.texcoord.xy;
-				o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz, 1));
+				o.pos = UnityObjectToClipPos(float4(v.vertex.xyz, 1));
 
 				LIGHTMAP_VS
 				LIGHTFACE_VS

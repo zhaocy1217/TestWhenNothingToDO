@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 Shader "MADFINGER/Transparent/Blinking GodRays" {
 
@@ -89,7 +91,7 @@ SubShader {
 		mdlPos.xyz += distScale * v.normal;
 				
 		o.uv		= v.texcoord.xy;
-		o.pos	= mul(UNITY_MATRIX_MVP, mdlPos);
+		o.pos	= UnityObjectToClipPos(mdlPos);
 		o.color	= nfadeout * _Color * _Multiplier * wave;
 						
 		return o;

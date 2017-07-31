@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Main Role"
 {
 	Properties
@@ -38,7 +40,7 @@ Shader "GOE/Main Role"
 			v2f vert(appdata_base v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				half2 capCoord;
 				capCoord.x = dot(UNITY_MATRIX_IT_MV[0].xyz, v.normal);
 				capCoord.y = dot(UNITY_MATRIX_IT_MV[1].xyz, v.normal);
@@ -95,7 +97,7 @@ Shader "GOE/Main Role"
 			{
 				v2f o;
 				WORLD_POS
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex).xy;
 				o.normalDir = UnityObjectToWorldNormal(v.normal);
 				o.posWorld = worldPos;

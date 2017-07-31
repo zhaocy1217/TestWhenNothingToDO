@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GOE/Other/Elite" {
 	Properties {
 		_Color ("Main Color", Color) = (1,1,1,1)
@@ -37,7 +39,7 @@ SubShader {
 			v2f vert (appdata_full v)
 			{
 				v2f o;
-				o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos (v.vertex);
 				o.uv_MainTex = v.texcoord.xy;
 				
 				o.uv_OutLineTex.x = dot(UNITY_MATRIX_IT_MV[0].xyz,v.normal);

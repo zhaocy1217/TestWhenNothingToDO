@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "Cloud/ShadowCaster" {
@@ -83,7 +85,7 @@ Shader "Cloud/ShadowCaster" {
                 o.vertexColor = v.vertexColor;
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 //o.dPos = mul(UNITY_MATRIX_MVP, v.vertex);
-                o.dPos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz,1))*_Dithering;
+                o.dPos = UnityObjectToClipPos(float4(v.vertex.xyz,1))*_Dithering;
 
                 TRANSFER_SHADOW_CASTER(o)
                 return o;

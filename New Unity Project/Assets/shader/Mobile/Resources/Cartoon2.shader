@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "CM/Cartoon2" {
     Properties 
 	{
@@ -51,8 +53,8 @@ Shader "CM/Cartoon2" {
 				v2f o;
 				//o.uv = TRANSFORM_TEX( v.texcoord.xy, _MainTex );
 
-				half4 projSpacePos = mul( UNITY_MATRIX_MVP, v.vertex );
-				half4 projSpaceNormal = normalize( mul( UNITY_MATRIX_MVP, half4( v.normal, 0 ) ) );
+				half4 projSpacePos = UnityObjectToClipPos( v.vertex );
+				half4 projSpaceNormal = normalize( UnityObjectToClipPos( half4( v.normal, 0 ) ) );
 				half4 scaledNormal = _EdgeThickness * INV_EDGE_THICKNESS_DIVISOR * projSpaceNormal; // * projSpacePos.w;
 
 				scaledNormal.z += 0.00001;
@@ -113,7 +115,7 @@ Shader "CM/Cartoon2" {
 			v2f vert (appdata_base v) 
 			{
 				v2f o;
-				o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos (v.vertex);
 
 				half2 capCoord;
 				capCoord.x = dot(UNITY_MATRIX_IT_MV[0].xyz,v.normal);

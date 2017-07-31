@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "Particles/Add UV Animation" {
@@ -45,7 +47,7 @@ Shader "Particles/Add UV Animation" {
 				{
 					v2f o;
 					half3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
             
 					o.uv_MainTex =  TRANSFORM_TEX( v.texcoord, _MainTex);
 					o.uv_AlphaTex = TRANSFORM_TEX( v.texcoord, _AlphaTex);

@@ -1,4 +1,6 @@
-﻿Shader "GOE/ImageEffect/Telescope" 
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/ImageEffect/Telescope" 
 {
 	Properties
 	{
@@ -35,7 +37,7 @@
 			v2f vert(appdata_base v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.srcPos = ComputeScreenPos(o.pos);
 				o.uv = v.texcoord;
 				return o;

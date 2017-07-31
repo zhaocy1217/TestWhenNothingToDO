@@ -1,4 +1,6 @@
-﻿Shader "GOE/Grab/Twist" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Grab/Twist" {
 Properties {
 	_MainColor("Main", Color) = (1,1,1,1)
 	_DispMap ("Displacement Map (RG)", 2D) = "white" {}
@@ -68,7 +70,7 @@ float _Height;
 v2f vert (appdata_t v)
 {
 	v2f o;
-	o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+	o.vertex = UnityObjectToClipPos(v.vertex);
 	#if UNITY_UV_STARTS_AT_TOP
 	float scale = -1.0;
 	#else

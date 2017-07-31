@@ -1,4 +1,6 @@
-﻿Shader "GOE/MirrorChange"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/MirrorChange"
 {
 	SubShader
 	{
@@ -35,7 +37,7 @@
 			{
 				v2f o;
 
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.color = v.color;
 
 				return o;

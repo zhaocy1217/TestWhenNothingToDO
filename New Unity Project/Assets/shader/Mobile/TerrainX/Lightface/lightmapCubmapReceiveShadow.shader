@@ -1,4 +1,6 @@
-﻿Shader "GOE/Scene/Lightmap Cubmap Receive Shadow"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "GOE/Scene/Lightmap Cubmap Receive Shadow"
 {
 	Properties
 	{
@@ -78,7 +80,7 @@
 			N = normalize(N);
 			o.reflect = reflect(I, N);
 
-			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos(v.vertex);
 
 
 			LIGHTMAP_VS
